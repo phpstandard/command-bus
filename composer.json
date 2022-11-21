@@ -6,6 +6,14 @@
     "autoload": {
         "psr-4": {
             "PhpStandard\\CommandBus\\": "src/"
+        },
+        "exclude-from-classmap": [
+            "/tests/"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "PhpStandard\\CommandBus\\Tests\\": "tests/"
         }
     },
     "authors": [
@@ -15,7 +23,8 @@
         }
     ],
     "require": {
-        "php": ">=8.1"
+        "php": ">=8.1",
+        "psr/container": "^2.0"
     },
     "require-dev": {
         "phpunit/phpunit": "^9.5",
