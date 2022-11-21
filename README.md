@@ -1,9 +1,9 @@
-# phpstandard/library
+# phpstandard/command-bus
 
-Skeleton to create a composer library
+Simple library to map and dispatch commands
 
 ## Installation
 
 ```bash
-composer create-project phpstandard/library
+composer require phpstandard/command-bus
 ```
